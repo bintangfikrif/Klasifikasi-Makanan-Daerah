@@ -1,7 +1,7 @@
 # Deep Learning (IF25-40401) Project
 # Klasifikasi-Makanan-Daerah
 
-Proyek ini dibuat sebagai bagian dari Tugas Besar Mata Kuliah Pembelajaran Mendalam (IF25-40401) di Program Studi Teknik Informatika, Institut Teknologi Sumatera. Topik utama tugas adalah membangun model yang dapat mengklasifikasi 5 jenis makanan khas Indonesia dengan baik menggunakan model *Deep Learning*.
+Proyek ini dibuat sebagai bagian dari Tugas Besar Pertama Mata Kuliah Pembelajaran Mendalam (IF25-40401) di Program Studi Teknik Informatika, Institut Teknologi Sumatera. Topik utama tugas adalah membangun model yang dapat mengklasifikasi 5 jenis makanan khas Indonesia dengan baik menggunakan model *Deep Learning*.
 
 ## Daftar Anggota Kelompok
 
@@ -16,7 +16,7 @@ Dataset Makanan Daerah terdiri dari 5 kelas masakan nusantara yaitu nasi goreng,
 
 ## Preprocessing & Data Augmentation
 Untuk mempersiapkan data sebelum masuk ke model, dilakukan beberapa tahapan transformasi:
-* **Resize**: Mengubah ukuran seluruh gambar menjadi `224x224` pixel[cite: 675, 681].
+* **Resize**: Mengubah ukuran seluruh gambar menjadi `224x224` pixel.
 * **Data Augmentation (Training)**: Diterapkan untuk mencegah *overfitting* dan membuat model lebih kebal terhadap variasi data.
     * `RandomHorizontalFlip`: Membalik gambar secara horizontal dengan probabilitas 0.5 (50%).
     * `RandomRotation`: Memutar gambar secara acak hingga 10 derajat.
